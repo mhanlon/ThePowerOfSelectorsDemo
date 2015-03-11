@@ -15,6 +15,7 @@
 		85F6F1251AB0B332002906E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F6F1241AB0B332002906E3 /* Images.xcassets */; };
 		85F6F1281AB0B332002906E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F6F1261AB0B332002906E3 /* LaunchScreen.xib */; };
 		85F6F1341AB0B332002906E3 /* ThePowerOfSelectorsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F6F1331AB0B332002906E3 /* ThePowerOfSelectorsDemoTests.m */; };
+		85F6F13F1AB0B411002906E3 /* Ninja.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F6F13E1AB0B411002906E3 /* Ninja.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		85F6F12D1AB0B332002906E3 /* ThePowerOfSelectorsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThePowerOfSelectorsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F6F1321AB0B332002906E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F6F1331AB0B332002906E3 /* ThePowerOfSelectorsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThePowerOfSelectorsDemoTests.m; sourceTree = "<group>"; };
+		85F6F13D1AB0B411002906E3 /* Ninja.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ninja.h; sourceTree = "<group>"; };
+		85F6F13E1AB0B411002906E3 /* Ninja.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ninja.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				85F6F1191AB0B332002906E3 /* AppDelegate.m */,
 				85F6F11E1AB0B332002906E3 /* ViewController.h */,
 				85F6F11F1AB0B332002906E3 /* ViewController.m */,
+				85F6F13D1AB0B411002906E3 /* Ninja.h */,
+				85F6F13E1AB0B411002906E3 /* Ninja.m */,
 				85F6F1211AB0B332002906E3 /* Main.storyboard */,
 				85F6F1241AB0B332002906E3 /* Images.xcassets */,
 				85F6F1261AB0B332002906E3 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85F6F11A1AB0B332002906E3 /* AppDelegate.m in Sources */,
+				85F6F13F1AB0B411002906E3 /* Ninja.m in Sources */,
 				85F6F1171AB0B332002906E3 /* main.m in Sources */,
 				85F6F1201AB0B332002906E3 /* ViewController.m in Sources */,
 				85F6F11D1AB0B332002906E3 /* ThePowerOfSelectorsDemo.xcdatamodeld in Sources */,
